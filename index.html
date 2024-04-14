@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>SpeechDetect</title>
+</head>
+<body>
+   <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__prod">
+                    <div class="header__logo">
+                        <img class="header__logo-img" src="img/logo.svg" alt="">
+                    </div>
+                    <div class="header__name">SpeechDetect</div>
+                </div>
+                <div class="header__add">
+                    <a href="#" class="header__tariffs">Тарифы</a>
+                    <a href="#" class="header__opport">Возможности</a>
+                </div>
+                <div class="header__auth">
+                    <div class="header__auth-grad">
+                        <div class="header__auth-black">
+                            <a href="#">Вход</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </header>
+   <section class="load">
+        <div class="container">
+            <div class="load__text">
+                <div class="load__descr">распознавание синтезированной речи</div>
+                <div class="load__do">Загрузите аудио- или видеофайл для определения того, <br> является ли речь в нём синтезированной или нет.</div>
+            </div>
+            <input class="load__input" id="soundInput" type="file" name="file">
+            <label for="soundInput" class="load__button"><span>Добавить файл</span></label>
+            <input class="load__button" type=submit value="Отправить" id="button">
+            <div class="load__answer">
+                <label class="load__answer" id="synth">Файл не был загружен</label>
+            </div>
+        </div>
+   </section>
+   <section class="but">
+        <div class="container">
+            <div class="but__text">несмотря на кажущуюся реалистичность искусственных голосов  генерируемый звук содержит мелкие дефекты, которые легко распознаются  специальными моделями, способными отличать реальный речевой сигнал от синтетического.</div>
+            <div class="but__descr">Данный сервис предоставляет возможность проверить, содержит ли загруженный аудиофайл синтезириованную речь. ИИ также доступен для мобильных платформ.</div>
+            <div class="but__qr"><img src="img/qr_temp.svg" alt=""></div>
+        </div>
+   </section>
+   <footer class="footer">
+        <div class="container">
+            <ul class="footer__list">
+                <li class="footer__item"><a href="#" class="footer__link">контакты</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">конфиденциальность</a></li>
+                <li class="footer__item"><a href="#" class="footer__link">условия</a></li>
+            </ul>
+        </div>
+   </footer>
+   <script src="js/main.js"></script> 
+</html>
+
